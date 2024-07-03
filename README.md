@@ -1,4 +1,4 @@
-# User Management Script
+# Linux User Creation Bash Script
 
 This Bash script automates the process of creating users, setting passwords, and assigning groups on a Unix-like system. It reads user information from an input file and logs the operations performed.
 
@@ -59,8 +59,6 @@ Each line contains a username and a comma-separated list of groups.
      - Adds the user to the group if they are not already a member.
 
 ## Example
-
-Here’s an example of what the input file might look like:
 
 ```
 Foster;developers,admins
